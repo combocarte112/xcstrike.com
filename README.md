@@ -20,7 +20,7 @@ CS 1.6 · CS:S · CS:GO · CS2
 
 [XCSTRIKE](https://xcstrike.com) is a home for the Counter-Strike community: a live server list for **CS 1.6, CS:S, CS:GO and CS2**, free tools for server owners, and a clean CS 1.6 client.
 
-Most server lists are full of fake entries and padded player counts. On XCSTRIKE every new server is verified before it goes live, player counts come from live queries, and rankings come from real votes.
+Many server lists are full of fake entries and padded player counts. On XCSTRIKE, new CS 1.6 servers are checked by hand before they go live, player counts come from live queries, and rankings come from real votes.
 
 This repository documents the free **XCSTRIKE public API** and the **live server banners**, with ready-to-use examples.
 
@@ -51,21 +51,23 @@ console.log(data);
 
 Please cache responses on your side: requests are rate-limited per IP.
 
+No API key and no sign-up needed. If you use the API in a public project (a Discord bot, a website, a panel), a link back to [xcstrike.com](https://xcstrike.com) is appreciated.
+
 ## For players
 
 - **[Live server list](https://xcstrike.com/servers)** with real player counts, maps, country flags and ping, for [CS 1.6](https://xcstrike.com/servers), [CS2](https://xcstrike.com/servers/cs2), [CS:GO](https://xcstrike.com/servers/csgo) and [CS:S](https://xcstrike.com/servers/css).
 - **Monthly ranking:** vote for your favorite servers. Each month's winners earn a gold, silver or bronze crown.
 - **[CS 1.6 XCSTRIKE Edition](https://xcstrike.com/download-cs-16):** Non-Steam, engine 8684 (NextClient), with **XCSCLIENT**, an in-game server browser that only lists real servers. No fake servers, no redirects, no adware.
-- **[CheatDetector](https://xcstrike.com/cheatdetector):** prove you play clean with a quick PC scan.
+- **[CheatDetector](https://xcstrike.com/cheatdetector) (beta):** a free Windows scanner for CS 1.6 and CS2. Run it with the game open and share the public report with the server admin.
 - **[SteamID Finder](https://xcstrike.com/tools/steamid)**, **[CS2 Inventory](https://xcstrike.com/tools/cs2-inventory)**, **[Community Networks](https://xcstrike.com/networks)** and a community forum.
 
 ## For server owners
 
 - **[Add your server](https://xcstrike.com/add-server)** for free. With 5 votes a month it also appears in the XCSCLIENT Internet list, and monthly winners get a spot in the client's Random Server.
 - **Free cloud compilers**, nothing to install:
-  - [AMXX Compiler](https://xcstrike.com/tools/amxx-compiler): `.sma` to `.amxx` for CS 1.6 (AMXX 1.8.2 / 1.9 / 1.10, custom `.inc` files)
-  - [SourceMod Compiler](https://xcstrike.com/tools/sourcemod-compiler): `.sp` to `.smx` for CS:GO and CS:S
-  - [CounterStrikeSharp Compiler](https://xcstrike.com/tools/cssharp-compiler): CS2 C# plugins without a local .NET SDK
+  - [AMXX Compiler](https://xcstrike.com/tools/amxx-compiler): `.sma` to `.amxx` for CS 1.6 (AMXX 1.8.2 / 1.8.3 / 1.9 / 1.10, custom `.inc` files)
+  - [SourceMod Compiler](https://xcstrike.com/tools/sourcemod-compiler): `.sp` to `.smx` for CS:GO and CS:S (SourceMod 1.10 / 1.11 / 1.12)
+  - [CounterStrikeSharp Compiler](https://xcstrike.com/tools/cssharp-compiler): CS2 C# plugins without a local .NET SDK (single `.cs` file or full `.csproj` project)
 - **Live banners** for forums and signatures: 5 styles (Wide, Slim, Hero, Mini, Card), themeable in Banner Studio, updated with your live player count.
 - **Server Manager:** live in-game chat, web console, bans and stats from the browser, powered by the free XCSTRIKE server plugin.
 
